@@ -29,6 +29,22 @@ body{
     width: 50%;
 }
 
+.project-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5em;
+}
+
+.project-wrapper img{
+    padding-left: 200px;
+    padding-top: 5%;
+}
+
+.project-wrapper div{
+    padding-right: 30%;
+}
+
+
 #main-header{
     text-align: center;
     padding-top: 130px;
@@ -59,4 +75,5 @@ body{
 #intro-text{
     padding-top: 7%;
 }
+
 
