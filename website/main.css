@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+/* Main color theme */
 :root {
     --primary-color: #242424;
     --secondary-color: #2400c2;
@@ -10,6 +11,18 @@
     --bg-second-color: #f8f8f8;
   }
 
+/* Dark color theme */
+[data-theme="dark"] {
+    --primary-color: white;
+    --secondary-color: #3776ff;
+    --secondary-color-hover: #5d88ff;
+    --hover-black-color: white;
+    --hover-white-color: white;
+    --bg-color: black;
+    --bg-second-color: #363636;
+}
+
+/* Global styles */
 *{
     font-family: 'Lato', sans-serif;
     padding: 0;
