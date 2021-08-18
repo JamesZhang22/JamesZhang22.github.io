@@ -33,8 +33,30 @@
                   nav__link--anchor-primary
                 ">Contact</a>
               </li>
+              <li class="nav__link">
+                <div class="theme-switch-wrapper">
+                  <label class="theme-switch" for="checkbox">
+                      <input type="checkbox" id="checkbox" />
+                      <div class="slider round"></div>
+                </label>
+                </div>
+              </li>
             </ul>
           </nav>
+          <script>
+            const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+            function switchTheme(e) {
+                if (e.target.checked) {
+                    document.documentElement.setAttribute('data-theme', 'dark');
+                }
+                else {
+                    document.documentElement.setAttribute('data-theme', 'light');
+                }    
+            }
+
+            toggleSwitch.addEventListener('change', switchTheme, false);
+          </script>
           <div class="flex flex-1">
             <div class="about-me__info row">
               <div class="about-me__info--container">
