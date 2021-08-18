@@ -6,6 +6,8 @@
     --secondary-color-hover: #2f00ff;
     --hover-black-color: black;
     --hover-white-color: white;
+    --bg-color: white;
+    --bg-second-color: #f8f8f8;
   }
 
 *{
@@ -17,6 +19,7 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: var(--bg-color);
 }
 
 h1, h2, h3, h4, h5, h6, span {
@@ -101,7 +104,7 @@ i:hover {
 }
 
 section:nth-child(even) {
-    background-color: #f8f8f8;
+    background-color: var(--bg-second-color);
 }
 
 .section__title {
