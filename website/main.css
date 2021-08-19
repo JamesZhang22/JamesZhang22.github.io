@@ -19,7 +19,7 @@
     --hover-black-color: white;
     --hover-white-color: white;
     --bg-color: black;
-    --bg-second-color: #363636;
+    --bg-second-color: #1d1d1d;
 }
 
 /* Global styles */
@@ -292,7 +292,7 @@ nav {
 
 .about-me__links {
     font-size: 24px;
-    color: black;
+    color: var(--hover-black-color);
     text-decoration: none;
     padding: 0 16px;
     animation: fade-up 600ms 400ms backwards;
