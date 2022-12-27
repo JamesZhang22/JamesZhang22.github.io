@@ -2,23 +2,23 @@
 
 /* Main color theme */
 :root {
-    --primary-color: #242424;
+    --primary-color: #1f1f1f;
     --secondary-color: #2400c2;
     --secondary-color-hover: #2f00ff;
     --hover-black-color: black;
     --hover-white-color: white;
-    --bg-color: white;
+    --bg-color: #f1f1f1;
     --bg-second-color: #f8f8f8;
   }
 
 /* Dark color theme */
 [data-theme="dark"] {
-    --primary-color: white;
+    --primary-color: #f1f1f1;
     --secondary-color: #3776ff;
     --secondary-color-hover: #5d88ff;
     --hover-black-color: white;
     --hover-white-color: white;
-    --bg-color: black;
+    --bg-color: #1f1f1f;
     --bg-second-color: #1d1d1d;
 }
 
